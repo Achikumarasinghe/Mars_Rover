@@ -1,6 +1,6 @@
 # Mars Rover simulation
 
-One Paragraph of project description goes here
+ robotic rovers simulation on a plateau on Mars.
 
 ## To Run the project
 
@@ -15,6 +15,21 @@ Or
          run the following command:
          
             java -jar "Mars_Rover.jar" 
+  
+  then on the console,type the input as shown down.
+            
+            5 5
+            1 2 N
+            LMLMLMLMM
+            3 3 E
+            MMRMMRMRRM
+            
+  The first line of input is the upper-right coordinates of the plateau.
+  The second line gives the rover1’s position, and the third line is a series of instructions telling the rover1 how to
+explore the plateau.
+ The fourth line gives the rover2’s position, and the fifth line is a series of instructions telling the rover2 how to
+explore the plateau.
+
             
 ### Prerequisites
 
