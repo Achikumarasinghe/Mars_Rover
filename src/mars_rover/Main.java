@@ -26,7 +26,7 @@ public class Main {
 
         }
         
-        System.out.println("ONPUTS FOR ROVER 1: ");        
+        System.out.println("OUTPUTS FOR ROVER 1: ");        
         Rover rover1 = new Rover(); //create object for rover 1
         try {
             rover1.setPlataeuSize(commands[0]);
@@ -41,7 +41,7 @@ public class Main {
             System.out.println("invalid arguments for intial possition : "+ex);
         }
         
-        System.out.println("ONPUTS FOR ROVER 2: ");
+        System.out.println("OUTPUTS FOR ROVER 2: ");
         Rover rover2 = new Rover(); //create object for rover 2.
         try {
             rover2.setInitialPos(commands[3]);
